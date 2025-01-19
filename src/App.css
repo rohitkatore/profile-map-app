@@ -1,0 +1,44 @@
+.app-container {
+  min-height: 100vh;
+}
+
+.profile-section {
+  padding: 20px;
+}
+
+.map-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  transition: transform 0.2s;
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+@media (max-width: 600px) {
+  .profile-section {
+    padding: 10px;
+  }
+  
+  .map-container {
+    height: 300px;
+  }
+}
